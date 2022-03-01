@@ -1,0 +1,101 @@
+body {
+    background-color: #bcbcbc;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+
+/*---------GLOBAL-------------*/
+
+
+
+
+
+/*---------HEADER-------- */
+.header {
+    background-color: #1b0505;
+
+}
+
+.header h1 {
+    background-color: #1b0505;
+    color: 	#bcbcbc;
+    text-align: center;
+
+}
+
+.header .navigation li{
+    list-style-type: none;
+    text-align: center;
+}
+
+.header .navigation a {
+    color: gray;
+    text-decoration: none;
+}
+
+/*--------BANNER--------*/
+
+.banner 
+
+
+/*-----------COLORS--------*/
+
+div {
+    display: block;
+}
+
+.color-container {
+    width:  80%;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 10px;
+    
+}
+
+.color-container div {
+    text-align: center;
+}
+
+.color_1 {
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.color_2 {
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.color_3 {
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.color_4 {
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+/*-----------*FONTS*----------*/
+
+
+.font_container{
+    width: 80%;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 10px;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 45%;
+}
+
+
