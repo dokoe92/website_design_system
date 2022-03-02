@@ -7,16 +7,24 @@
     <link rel="stylesheet" href="style.css">
 
 <!-- links to fonts-->
+    <!---font-family: 'Roboto', sans-serif;-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">    
+
+    <!---font-family: 'Merriweather', serif;-->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!---font-family: 'Kanit', sans-serif;-->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
 
 
     <title>Website Design System</title>
 </head>
 <body>
-    <div class="navigation">
+    <div class="nav">
         <ul>
-            <li><a href="">Colors</a></li>
-            <li><a href="">Fonts</a></li>
-            <li><a href="">Styles</a></li>
+            <li><a href="#colors">Colors</a></li>
+            <li><a href="#fonts">Fonts</a></li>
+            <li><a href="#styles">Styles</a></li>
         </ul>
     </div>
 
@@ -26,10 +34,27 @@
         <div class="container">
             <h2>Colors</h2>
             <div class="color-container">
-                <div class="">Color1</div>
-                <div class="">Color2</div>
-                <div class="">Color3</div>
-                <div class="">Color4</div>
+                <div class="color-block-blue_1">
+                    <p>Dark blue</p>
+                    <p>#033070</p>
+
+                </div>
+                <div class="color-block-blue_2">
+                    <p>Dark Blue brightend</p>
+                    <p>#214a85 </p>
+                </div>
+                <div class="color-block-blue_3">
+                    <p>Middle Blue</p>
+                    <p>#486c9f</p>
+                </div>
+                <div class="color-block-blue_4">
+                    <p>Blue brightend</p>
+                    <p>#899fc0</p>
+                </div>
+                <div class="color-block-blue_5">
+                    <p>Blue Gray</p>
+                    <p>#ced7e5</p>
+                </div>
             </div>
         </div>
     </section>
@@ -38,13 +63,55 @@
         <div class="container">
             <h2>Fonts</h2>
             <div class="font-container">
+                <div class="font-panel">
+                    <h3><a href="https://fonts.google.com/specimen/Roboto#standard-styles">Roboto</a></h3>
+                    <p class="roboto font-none">This is a good example of the used font.</p>
+                    <p class="roboto font-bold">This is a good example of the used font.</p>
+                    <p class="roboto font-italic">This is a good example of the used font.</p>
+                </div>
+                <div class="font-panel">
+                    <h3><a href="https://fonts.google.com/specimen/Merriweather">Merriweather</a></h3>
+                    <p class="merriweather font-none">This is a good example of the used font.</p>
+                    <p class="merriweather font-bold">This is a good example of the used font.</p>
+                    <p class="merriweather font-italic">This is a good example of the used font.</p>
+                </div>
+                <div class="font-panel">
+                    <h3><a href="https://fonts.google.com/specimen/Kanit">Kanit</a></h3>
+                    <p class="kanit font-none">This is a good example of the used font.</p>
+                    <p class="kanit font-bold">This is a good example of the used font.</p>
+                    <p class="kanit font-italic">This is a good example of the used font.</p>
+                </div>
             </div>
-        </div>
 
     </section>
 
     <section id="styles">
-        <div class="container"></div>
+        <div class="container">
+            <div class = "style-container">
+                <h2>Styles</h2>
+                    <h1>H1: Main Page landing </h1>
+                    <ul>
+                        <li>Font-weight: 700 (bold)</li>
+                        <li>Font-size: 26px</li>
+                        <li>Font-family: Kanit</li>
+                    </ul>
+
+                    <h2 class="subheading">Subheading</h2>
+                    <ul>
+                        <li>Font-weight: 500</li>
+                        <li>Font-size: 18px</li>
+                        <li>Font-family: Merriweather</li>
+                    </ul>
+
+                    <p>P: Paragraph text</p>
+                    <ul>
+                        <li>Font-weight: 400 (regular)</li>
+                        <li>Font-size: 14px</li>
+                        <li>Font-family: Roboto</li>
+                    </ul>
+            </div>
+        </div>
+
     </section>
 
 
